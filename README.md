@@ -32,3 +32,4 @@ Version 1.2a4:
 	-Fixed bug: Close out always fails due to new void handling
 	-Changed how "remove last item" works
 	-Changed "accept close out" so a failure is less of a problem
+	-Added check of Reg number to "new day"
