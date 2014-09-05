@@ -20,7 +20,7 @@ Version 1.2a4:
 	-(!)Close out always fails due to new void handling (fixed v1.2a5)
 
 Version 1.2a5:
-	-(!)Close out always fails due to mistakes in "accept close out" and "change day" scripts (fixed v1.2a6)
+	-(!)Close out always fails due to mistakes in "accept close out" and "change day" scripts (fixed v1.3)
 
 ========
 CHANGE LOG
@@ -46,8 +46,10 @@ Version 1.2a5:
 	-Added "Change day" script
 	-Changed "accept close out" to use "change day" script
 
-Version 1.2a6:
+Version 1.3:
 	-Fixed bug: Close out always fails due to mistakes in "accept close out" and "change day" scripts
 	-Added ability to associate customers with tickets
 	-Added ability to add customers to database
 	-Added display of current customer and store credit available to ticket
+	-Changed close out error checking to be actually helpful
+	-Added ability to force a close out by dumping the records
