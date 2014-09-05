@@ -14,10 +14,13 @@ Version 1.2a2:
 
 Version 1.2a3:
 	-Phantom item added to beginning of tickets (fixed v1.2a4)
-	-Close out always fails due to new void handling (fixed v1.2a5)
+	-(!)Close out always fails due to new void handling (fixed v1.2a5)
 
 Version 1.2a4:
-	-Close out always fails due to new void handling (fixed v1.2a5)
+	-(!)Close out always fails due to new void handling (fixed v1.2a5)
+
+Version 1.2a5:
+	-(!)Close out always fails due to mistakes in "accept close out" and "change day" scripts (fixed v1.2a6)
 
 ========
 CHANGE LOG
@@ -41,4 +44,10 @@ Version 1.2a4:
 Version 1.2a5:
 	-Fixed bug: Close out always fails due to new void handling
 	-Added "Change day" script
-	-Changed "accept close out" to use new script
+	-Changed "accept close out" to use "change day" script
+
+Version 1.2a6:
+	-Fixed bug: Close out always fails due to mistakes in "accept close out" and "change day" scripts
+	-Added ability to associate customers with tickets
+	-Added ability to add customers to database
+	-Added display of current customer and store credit available to ticket
