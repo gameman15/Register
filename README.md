@@ -21,6 +21,10 @@ Version 1.2a4:
 
 Version 1.2a5:
 	-(!)Close out always fails due to mistakes in "accept close out" and "change day" scripts (fixed v1.3)
+	-(!)Close out dump doesn't actually save records (fixed v1.3r1)
+
+Version 1.3:
+	-(!)Close out dump doesn't actually save records (fixed v1.3r1)
 
 ========
 CHANGE LOG
@@ -45,6 +49,7 @@ Version 1.2a5:
 	-Fixed bug: Close out always fails due to new void handling
 	-Added "Change day" script
 	-Changed "accept close out" to use "change day" script
+	-Added ability to force a close out by dumping the records
 
 Version 1.3:
 	-Fixed bug: Close out always fails due to mistakes in "accept close out" and "change day" scripts
@@ -52,4 +57,8 @@ Version 1.3:
 	-Added ability to add customers to database
 	-Added display of current customer and store credit available to ticket
 	-Changed close out error checking to be actually helpful
-	-Added ability to force a close out by dumping the records
+
+Version 1.3r1:
+	-Fixed bug: Close out dump doesn't actually save records
+	-Voiding current ticket now removes customer
+	-Changed receipts to have new store name and logo
