@@ -6,25 +6,40 @@ Version 1.2a1:
 	-Register# for ticket not saved in Bible (fixed v1.2a3)
 	-Store credit not counted correctly on close out (fixed v1.2a3)
 	-Voided taxes still added to total taxes (fixed v1.2a3)
+	-Date double check at start not occurring (fixed v1.3r2)
 
 Version 1.2a2:
-	-Register# for ticket not saved in Bible (fixed v1.2a3)
+	-Register# for ticket not saved in Bible correctly (fixed v1.2a3)
 	-Store credit not counted correctly on close out (fixed v1.2a3)
 	-Voided taxes still added to total taxes (fixed v1.2a3)
+	-Date double check at start not occurring (fixed v1.3r2)
 
-Version 1.2a3:
+Version 1.2a3(!):
 	-Phantom item added to beginning of tickets (fixed v1.2a4)
 	-(!)Close out always fails due to new void handling (fixed v1.2a5)
+	-Date double check at start not occurring (fixed v1.3r2)
 
-Version 1.2a4:
+Version 1.2a4(!):
 	-(!)Close out always fails due to new void handling (fixed v1.2a5)
+	-Date double check at start not occurring (fixed v1.3r2)
 
-Version 1.2a5:
+Version 1.2a5(!):
 	-(!)Close out always fails due to mistakes in "accept close out" and "change day" scripts (fixed v1.3)
-	-(!)Close out dump doesn't actually save records (fixed v1.3r1)
+	-(!)Close out dump loses all records (fixed v1.3r1)
+	-Close out always fails if store credit issued (fixed v1.3r2)
+	-Close out dump date formatted incorrectly (fixed v1.3r2)
+	-Date double check at start not occurring (fixed v1.3r2)
 
-Version 1.3:
-	-(!)Close out dump doesn't actually save records (fixed v1.3r1)
+Version 1.3(!):
+	-(!)Close out dump loses all records (fixed v1.3r1)
+	-Close out always fails if store credit issued (fixed v1.3r2)
+	-Close out dump date formatted incorrectly (fixed v1.3r2)
+	-Date double check at start not occurring (fixed v1.3r2)
+
+Version 1.3r1:
+	-Close out always fails if store credit issued (fixed v1.3r2)
+	-Close out dump date formatted incorrectly (fixed v1.3r2)
+	-Date double check at start not occurring (fixed v1.3r2)
 
 ========
 CHANGE LOG
@@ -43,7 +58,7 @@ Version 1.2a4:
 	-Failed to fix bug: Close out always fails due to new void handling
 	-Changed how "remove last item" works
 	-Changed "accept close out" so a failure is less of a problem
-	-Added check of Reg number to "new day"
+	-Added check of Register number to "new day"
 
 Version 1.2a5:
 	-Fixed bug: Close out always fails due to new void handling
@@ -62,3 +77,9 @@ Version 1.3r1:
 	-Fixed bug: Close out dump doesn't actually save records
 	-Voiding current ticket now removes customer
 	-Changed receipts to have new store name and logo
+
+Version 1.3r2:
+	-Fixed bug: Close out always fails if store credit issued
+	-Fixed bug: Close out dump date formatted incorrectly
+	-Fixed bug: Date double check at start not occurring
+	-Minor naming and layout changes
