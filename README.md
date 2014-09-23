@@ -7,21 +7,31 @@ Version 1.2a1:
 	-Store credit not counted correctly on close out (fixed v1.2a3)
 	-Voided taxes still added to total taxes (fixed v1.2a3)
 	-Date double check at start not occurring (fixed v1.3r2)
+	-Possible to put empty ticket on hold (fixed v1.3r3)
+	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 
 Version 1.2a2:
 	-Register# for ticket not saved in Bible correctly (fixed v1.2a3)
 	-Store credit not counted correctly on close out (fixed v1.2a3)
 	-Voided taxes still added to total taxes (fixed v1.2a3)
 	-Date double check at start not occurring (fixed v1.3r2)
+	-Possible to put empty ticket on hold (fixed v1.3r3)
+	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 
 Version 1.2a3(!):
 	-Phantom item added to beginning of tickets (fixed v1.2a4)
 	-(!)Close out always fails due to new void handling (fixed v1.2a5)
 	-Date double check at start not occurring (fixed v1.3r2)
+	-Putting a ticket on hold makes the next ticket not appear on close out (fixed v1.3r3)
+	-Possible to put empty ticket on hold (fixed v1.3r3)
+	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 
 Version 1.2a4(!):
 	-(!)Close out always fails due to new void handling (fixed v1.2a5)
 	-Date double check at start not occurring (fixed v1.3r2)
+	-Putting a ticket on hold makes the next ticket not appear on close out (fixed v1.3r3)
+	-Possible to put empty ticket on hold (fixed v1.3r3)
+	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 
 Version 1.2a5(!):
 	-(!)Close out always fails due to mistakes in "accept close out" and "change day" scripts (fixed v1.3)
@@ -29,17 +39,32 @@ Version 1.2a5(!):
 	-Close out always fails if store credit issued (fixed v1.3r2)
 	-Close out dump date formatted incorrectly (fixed v1.3r2)
 	-Date double check at start not occurring (fixed v1.3r2)
+	-Putting a ticket on hold makes the next ticket not appear on close out (fixed v1.3r3)
+	-Possible to put empty ticket on hold (fixed v1.3r3)
+	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 
 Version 1.3(!):
 	-(!)Close out dump loses all records (fixed v1.3r1)
 	-Close out always fails if store credit issued (fixed v1.3r2)
 	-Close out dump date formatted incorrectly (fixed v1.3r2)
 	-Date double check at start not occurring (fixed v1.3r2)
+	-Putting a ticket on hold makes the next ticket not appear on close out (fixed v1.3r3)
+	-Possible to put empty ticket on hold (fixed v1.3r3)
+	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 
 Version 1.3r1:
 	-Close out always fails if store credit issued (fixed v1.3r2)
 	-Close out dump date formatted incorrectly (fixed v1.3r2)
 	-Date double check at start not occurring (fixed v1.3r2)
+	-Putting a ticket on hold makes the next ticket not appear on close out (fixed v1.3r3)
+	-Possible to put empty ticket on hold (fixed v1.3r3)
+	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
+
+Version 1.3r2:
+	-Close out always fails if store credit redeemed (fixed v1.3r3)
+	-Putting a ticket on hold makes the next ticket not appear on close out (fixed v1.3r3)
+	-Possible to put empty ticket on hold (fixed v1.3r3)
+	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 
 ========
 CHANGE LOG
@@ -76,10 +101,17 @@ Version 1.3:
 Version 1.3r1:
 	-Fixed bug: Close out dump doesn't actually save records
 	-Voiding current ticket now removes customer
-	-Changed receipts to have new store name and logo
+	-Changed Halloween mode receipts to have new store name and logo
 
 Version 1.3r2:
 	-Fixed bug: Close out always fails if store credit issued
 	-Fixed bug: Close out dump date formatted incorrectly
 	-Fixed bug: Date double check at start not occurring
 	-Minor naming and layout changes
+
+Version 1.3r3:
+	-Fixed bug: Close out always fails if store credit redeemed
+	-Fixed bug: Putting a ticket on hold makes the next ticket not appear on close out
+	-Fixed bug: Possible to put empty ticket on hold
+	-Fixed bug: RESET REGISTER does not clear ticket on hold
+	-Minor cleaning of code
