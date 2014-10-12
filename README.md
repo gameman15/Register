@@ -59,12 +59,22 @@ Version 1.3r1:
 	-Putting a ticket on hold makes the next ticket not appear on close out (fixed v1.3r3)
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
+	-Store credit slip has old logo (fixed 1.3r4)
+	-Intl. Touch receipts still have old logo
 
 Version 1.3r2:
 	-Close out always fails if store credit redeemed (fixed v1.3r3)
 	-Putting a ticket on hold makes the next ticket not appear on close out (fixed v1.3r3)
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
+	-If there is store credit left over register will not issue new credit slip (fixed 1.3r4)
+	-Store credit slip has old logo (fixed 1.3r4)
+	-Intl. Touch receipts still have old logo
+
+Version 1.3r3:
+	-If there is store credit left over register will not issue new credit slip (fixed 1.3r4)
+	-Store credit slip has old logo (fixed 1.3r4)
+	-Intl. Touch receipts still have old logo
 
 ========
 CHANGE LOG
@@ -115,3 +125,9 @@ Version 1.3r3:
 	-Fixed bug: Possible to put empty ticket on hold
 	-Fixed bug: RESET REGISTER does not clear ticket on hold
 	-Minor cleaning of code
+
+Version 1.3r4:
+	-Fixed bug: If there is store credit left over register will not issue new credit slip
+	-Fixed bug: Store credit slip has old logo
+	-Changed multiple items found layout
+	-Updated detail view layout to match BIBLE version
