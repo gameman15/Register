@@ -76,6 +76,11 @@ Version 1.3r3:
 	-Store credit slip has old logo (fixed 1.3r4)
 	-Intl. Touch receipts still have old logo
 
+Version 1.3r4:
+	-Register closes if you try to redeem store credit (fixed 1.3r5)
+	-Detail view find button doesn't work (fixed 1.3r5)
+	-Intl. Touch receipts still have old logo
+
 ========
 CHANGE LOG
 Version 1.2a2:
@@ -131,3 +136,8 @@ Version 1.3r4:
 	-Fixed bug: Store credit slip has old logo
 	-Changed multiple items found layout
 	-Updated detail view layout to match BIBLE version
+
+Version 1.3r5:
+	-Fixed bug: Register closes if you try to redeem store credit
+	-Fixed bug: Detail view find button doesn't work
+	-Added exit button to detail view
