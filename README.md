@@ -81,6 +81,13 @@ Version 1.3r4:
 	-Detail view find button doesn't work (fixed 1.3r5)
 	-Intl. Touch receipts still have old logo
 
+Version 1.3r5:
+	-If there is store credit left over register will not issue new credit slip
+	-Item Lookup can sometimes result in the ticket stuck being blank until restart
+	-Scanning a UPC in item lookup results in a window popping up as if you were trying to check the item out
+	-Hitting "No" to adding a new customer has unexpected behavior
+	-Sometimes customer's phone number can't be searched (bug?)
+	-Intl. Touch receipts still have old logo
 ========
 CHANGE LOG
 Version 1.2a2:
