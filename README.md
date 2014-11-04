@@ -82,11 +82,11 @@ Version 1.3r4:
 	-Intl. Touch receipts still have old logo
 
 Version 1.3r5:
-	-If there is store credit left over register will not issue new credit slip
-	-Item Lookup can sometimes result in the ticket stuck being blank until restart
-	-Scanning a UPC in item lookup results in a window popping up as if you were trying to check the item out
-	-Hitting "No" to adding a new customer has unexpected behavior
-	-Sometimes customer's phone number can't be searched (bug?)
+	-If there is store credit left over register will not issue new credit slip (fixed v1.3r6)
+	-Item Lookup can sometimes result in the ticket stuck being blank until restart (fixed v1.3r6)
+	-Scanning a UPC in item lookup results in a window popping up as if you were trying to check the item out (fixed v1.3r6)
+	-Hitting "No" to adding a new customer has unexpected behavior (fixed v1.3r6)
+	-Sometimes customer's phone number can't be searched (user error?)
 	-Intl. Touch receipts still have old logo
 ========
 CHANGE LOG
@@ -148,3 +148,10 @@ Version 1.3r5:
 	-Fixed bug: Register closes if you try to redeem store credit
 	-Fixed bug: Detail view find button doesn't work
 	-Added exit button to detail view
+
+Version 1.3r6:
+	-Fixed bug: If there is store credit left over register will not issue new credit slip
+	-Fixed bug: Item Lookup can sometimes result in the ticket stuck being blank until restart
+	-Fixed bug: Scanning a UPC in item lookup results in a window popping up as if you were trying to check the item out
+	-Fixed bug: Hitting "No" to adding a new customer has unexpected behavior
+	-Added beep to More Than One found dialog to make it more noticeable
