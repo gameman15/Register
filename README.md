@@ -1,6 +1,7 @@
 Register
 ========
 KNOWN BUGS
+
 Version 1.2a1:
 	-Using store credit to pay for an item does not work (fixed v1.2a2)
 	-Register# for ticket not saved in Bible (fixed v1.2a3)
@@ -9,6 +10,7 @@ Version 1.2a1:
 	-Date double check at start not occurring (fixed v1.3r2)
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
+	-Adding total store credit issued/used improperly (fixed v1.3r6)
 
 Version 1.2a2:
 	-Register# for ticket not saved in Bible correctly (fixed v1.2a3)
@@ -17,6 +19,7 @@ Version 1.2a2:
 	-Date double check at start not occurring (fixed v1.3r2)
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
+	-Adding total store credit issued/used improperly (fixed v1.3r6)
 
 Version 1.2a3(!):
 	-Phantom item added to beginning of tickets (fixed v1.2a4)
@@ -25,6 +28,7 @@ Version 1.2a3(!):
 	-Putting a ticket on hold makes the next ticket not appear on close out (fixed v1.3r3)
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
+	-Adding total store credit issued/used improperly (fixed v1.3r6)
 
 Version 1.2a4(!):
 	-(!)Close out always fails due to new void handling (fixed v1.2a5)
@@ -32,6 +36,7 @@ Version 1.2a4(!):
 	-Putting a ticket on hold makes the next ticket not appear on close out (fixed v1.3r3)
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
+	-Adding total store credit issued/used improperly (fixed v1.3r6)
 
 Version 1.2a5(!):
 	-(!)Close out always fails due to mistakes in "accept close out" and "change day" scripts (fixed v1.3)
@@ -42,6 +47,7 @@ Version 1.2a5(!):
 	-Putting a ticket on hold makes the next ticket not appear on close out (fixed v1.3r3)
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
+	-Adding total store credit issued/used improperly (fixed v1.3r6)
 
 Version 1.3(!):
 	-(!)Close out dump loses all records (fixed v1.3r1)
@@ -51,6 +57,7 @@ Version 1.3(!):
 	-Putting a ticket on hold makes the next ticket not appear on close out (fixed v1.3r3)
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
+	-Adding total store credit issued/used improperly (fixed v1.3r6)
 
 Version 1.3r1:
 	-Close out always fails if store credit issued (fixed v1.3r2)
@@ -60,6 +67,7 @@ Version 1.3r1:
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 	-Store credit slip has old logo (fixed 1.3r4)
+	-Adding total store credit issued/used improperly (fixed v1.3r6)
 	-Intl. Touch receipts still have old logo
 
 Version 1.3r2:
@@ -69,16 +77,19 @@ Version 1.3r2:
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 	-If there is store credit left over register will not issue new credit slip (fixed 1.3r4)
 	-Store credit slip has old logo (fixed 1.3r4)
+	-Adding total store credit issued/used improperly (fixed v1.3r6)
 	-Intl. Touch receipts still have old logo
 
 Version 1.3r3:
 	-If there is store credit left over register will not issue new credit slip (fixed 1.3r4)
 	-Store credit slip has old logo (fixed 1.3r4)
+	-Adding total store credit issued/used improperly (fixed v1.3r6)
 	-Intl. Touch receipts still have old logo
 
 Version 1.3r4:
 	-Register closes if you try to redeem store credit (fixed 1.3r5)
 	-Detail view find button doesn't work (fixed 1.3r5)
+	-Adding total store credit issued/used improperly (fixed v1.3r6)
 	-Intl. Touch receipts still have old logo
 
 Version 1.3r5:
@@ -86,10 +97,16 @@ Version 1.3r5:
 	-Item Lookup can sometimes result in the ticket stuck being blank until restart (fixed v1.3r6)
 	-Scanning a UPC in item lookup results in a window popping up as if you were trying to check the item out (fixed v1.3r6)
 	-Hitting "No" to adding a new customer has unexpected behavior (fixed v1.3r6)
+ 	-Adding total store credit issued/used improperly (fixed v1.3r6)
+	-Can't return item if more than one found (fixed v1.3r6)
 	-Sometimes customer's phone number can't be searched (user error?)
 	-Intl. Touch receipts still have old logo
+
+
 ========
 CHANGE LOG
+
+
 Version 1.2a2:
 	-Fixed bug: Using store credit to pay for an item does not work
 
@@ -154,4 +171,9 @@ Version 1.3r6:
 	-Fixed bug: Item Lookup can sometimes result in the ticket stuck being blank until restart
 	-Fixed bug: Scanning a UPC in item lookup results in a window popping up as if you were trying to check the item out
 	-Fixed bug: Hitting "No" to adding a new customer has unexpected behavior
+	-Fixed bug: Adding total store credit issued/used improperly
+	-Fixed bug: Can't return item if more than one found
 	-Added beep to More Than One found dialog to make it more noticeable
+	-Removed dialog from More Than One to keep checkout going smoother
+	-(Hopefully) made it so able to check in whole sale and then select More Than One options after the fact with no loss of items
+	
