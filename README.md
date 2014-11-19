@@ -68,7 +68,7 @@ Version 1.3r1:
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 	-Store credit slip has old logo (fixed 1.3r4)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
-	-Intl. Touch receipts still have old logo
+	-Intl. Touch receipts still have old logo (fixed v1.3r7)
 
 Version 1.3r2:
 	-Close out always fails if store credit redeemed (fixed v1.3r3)
@@ -78,19 +78,19 @@ Version 1.3r2:
 	-If there is store credit left over register will not issue new credit slip (fixed 1.3r4)
 	-Store credit slip has old logo (fixed 1.3r4)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
-	-Intl. Touch receipts still have old logo
+	-Intl. Touch receipts still have old logo (fixed v1.3r7)
 
 Version 1.3r3:
 	-If there is store credit left over register will not issue new credit slip (fixed 1.3r4)
 	-Store credit slip has old logo (fixed 1.3r4)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
-	-Intl. Touch receipts still have old logo
+	-Intl. Touch receipts still have old logo (fixed v1.3r7)
 
 Version 1.3r4:
 	-Register closes if you try to redeem store credit (fixed 1.3r5)
 	-Detail view find button doesn't work (fixed 1.3r5)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
-	-Intl. Touch receipts still have old logo
+	-Intl. Touch receipts still have old logo (fixed v1.3r7)
 
 Version 1.3r5:
 	-If there is store credit left over register will not issue new credit slip (fixed v1.3r6)
@@ -100,8 +100,10 @@ Version 1.3r5:
  	-Adding total store credit issued/used improperly (fixed v1.3r6)
 	-Can't return item if more than one found (fixed v1.3r6)
 	-Sometimes customer's phone number can't be searched (user error?)
-	-Intl. Touch receipts still have old logo
+	-Intl. Touch receipts still have old logo (fixed v1.3r7)
 
+Version 1.3r6:
+	-Intl. Touch receipts still have old logo (fixed v1.3r7)
 
 ========
 CHANGE LOG
@@ -176,4 +178,9 @@ Version 1.3r6:
 	-Added beep to More Than One found dialog to make it more noticeable
 	-Removed dialog from More Than One to keep checkout going smoother
 	-(Hopefully) made it so able to check in whole sale and then select More Than One options after the fact with no loss of items
+
+Version 1.3r7:
+	-Fixed bug: Intl. Touch receipts still have old logo
+		-Sort of a temporary workaround
+	-Updated return policy on receipts
 	
