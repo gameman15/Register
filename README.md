@@ -181,6 +181,5 @@ Version 1.3r6:
 
 Version 1.3r7:
 	-Fixed bug: Intl. Touch receipts still have old logo
-		-Sort of a temporary workaround
 	-Updated return policy on receipts
 	
