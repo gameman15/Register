@@ -105,6 +105,9 @@ Version 1.3r5:
 Version 1.3r6:
 	-Intl. Touch receipts still have old logo (fixed v1.3r7)
 
+Version 1.3r7:
+	-Reprint ticket prints with old logo (fixed v1.3r8)
+
 ========
 CHANGE LOG
 
@@ -182,4 +185,6 @@ Version 1.3r6:
 Version 1.3r7:
 	-Fixed bug: Intl. Touch receipts still have old logo
 	-Updated return policy on receipts
-	
+
+Version 1.3r8:
+	-Fixed bug: Reprint ticket prints with old logo 
