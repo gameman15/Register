@@ -187,4 +187,7 @@ Version 1.3r7:
 	-Updated return policy on receipts
 
 Version 1.3r8:
-	-Fixed bug: Reprint ticket prints with old logo 
+	-Fixed bug: Reprint ticket prints with old logo
+
+Version 1.4:
+	-Added Inventory Mode
