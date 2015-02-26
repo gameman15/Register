@@ -104,9 +104,21 @@ Version 1.3r5:
 
 Version 1.3r6:
 	-Intl. Touch receipts still have old logo (fixed v1.3r7)
+	-Can close out an empty ticket (fixed 1.4r1)
+	-Adding customer to ticket not working (fixed 1.4r1)
 
 Version 1.3r7:
 	-Reprint ticket prints with old logo (fixed v1.3r8)
+	-Can close out an empty ticket (fixed 1.4r1)
+	-Adding customer to ticket not working (fixed 1.4r1)
+
+Version 1.3r8:
+	-Can close out an empty ticket (fixed 1.4r1)
+	-Adding customer to ticket not working (fixed 1.4r1)
+
+Version 1.4:
+	-Can close out an empty ticket (fixed 1.4r1)
+	-Adding customer to ticket not working (fixed 1.4r1)
 
 ========
 CHANGE LOG
@@ -191,3 +203,10 @@ Version 1.3r8:
 
 Version 1.4:
 	-Added Inventory Mode
+
+Version 1.4r1:
+	-Fixed bug: Can close out an empty ticket
+	-Fixed bug: Adding customer to ticket not working
+	-Removed access to Inventory Mode
+
+
