@@ -209,4 +209,11 @@ Version 1.4r1:
 	-Fixed bug: Adding customer to ticket not working
 	-Removed access to Inventory Mode
 
+Version 1.4r2:
+	-Changed NO SALE button to NO TAX which tax exempts all items already on the ticket
+
+TODO: Version 1.4r3:
+	TODO: -Putting -1 an item already on the ticket removes the item
+	TODO?: -enter exemption num for tax exempt orgs
+
 
