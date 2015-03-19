@@ -212,8 +212,9 @@ Version 1.4r1:
 Version 1.4r2:
 	-Changed NO SALE button to NO TAX which tax exempts all items already on the ticket
 
-TODO: Version 1.4r3:
-	TODO: -Putting -1 an item already on the ticket removes the item
-	TODO?: -enter exemption num for tax exempt orgs
+Version 1.4r3:
+	-Scanning an item already on the ticket adds to the qty instead of making a new line (and removes the item if it's qty is then 0)
+
+TODO?: -enter exemption num for tax exempt orgs
 
 
