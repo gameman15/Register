@@ -121,7 +121,7 @@ Version 1.4:
 	-Adding customer to ticket not working (fixed 1.4r1)
 
 Version 1.4r3:
-	-If more than one item found sometimes popup claims no items found
+	-If more than one item found sometimes popup claims no items found (fixed 1.5)
 
 ========
 CHANGE LOG
