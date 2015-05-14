@@ -120,6 +120,9 @@ Version 1.4:
 	-Can close out an empty ticket (fixed 1.4r1)
 	-Adding customer to ticket not working (fixed 1.4r1)
 
+Version 1.4r3:
+	-If more than one item found sometimes popup claims no items found
+
 ========
 CHANGE LOG
 
@@ -205,7 +208,7 @@ Version 1.4:
 	-Added Inventory Mode
 
 Version 1.4r1:
-	-Fixed bug: Can close out an empty ticket
+	-Fixed bug: Can cash out an empty ticket
 	-Fixed bug: Adding customer to ticket not working
 	-Removed access to Inventory Mode
 
@@ -215,6 +218,7 @@ Version 1.4r2:
 Version 1.4r3:
 	-Scanning an item already on the ticket adds to the qty instead of making a new line (and removes the item if it's qty is then 0)
 
-TODO?: -enter exemption num for tax exempt orgs
-
-
+Version 1.5:
+	-Fixed bug: If more than one item found sometimes popup claims no items found
+	-Changed so Close Out confirmation popup now defaults to Cancel
+	-Changed flow so Add Item defaults to Halloween items with button for categories page
