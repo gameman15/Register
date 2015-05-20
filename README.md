@@ -123,6 +123,9 @@ Version 1.4:
 Version 1.4r3:
 	-If more than one item found sometimes popup claims no items found (fixed 1.5)
 
+Version 1.5:
+	-(!)After scanning a barcode the program fails to continue (fixed 1.5r1)
+
 ========
 CHANGE LOG
 
@@ -222,3 +225,6 @@ Version 1.5:
 	-Fixed bug: If more than one item found sometimes popup claims no items found
 	-Changed so Close Out confirmation popup now defaults to Cancel
 	-Changed flow so Add Item defaults to Halloween items with button for categories page
+
+Version 1.5r1:
+	-Fixed bug: After scanning a barcode the program fails to continue
