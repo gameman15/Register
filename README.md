@@ -126,9 +126,14 @@ Version 1.4r3:
 Version 1.5:
 	-(!)After scanning a barcode the program fails to continue (fixed 1.5r1)
 	-(!)Cash/Credit buttons on new layout do not work (fixed 1.5r2)
+	-Description for generic items is barcode
 
 Version 1.5r1:
 	-(!)Cash/Credit buttons on new layout do not work (fixed 1.5r2)
+	-Description for generic items is barcode
+
+Version 1.5r2:
+	-Description for generic items is barcode
 
 ========
 CHANGE LOG
@@ -234,4 +239,7 @@ Version 1.5r1:
 	-Fixed bug: After scanning a barcode the program fails to continue
 
 Version 1.5r2:
+	-Fixed bug: Cash/Credit buttons on new layout do not work
+
+Version 1.5r3:
 	-Fixed bug: Cash/Credit buttons on new layout do not work
