@@ -133,7 +133,7 @@ Version 1.5r1:
 	-Description for generic items is barcode
 
 Version 1.5r2:
-	-Description for generic items is barcode
+	-Description for generic items is last entered barcode
 
 ========
 CHANGE LOG
@@ -242,4 +242,5 @@ Version 1.5r2:
 	-Fixed bug: Cash/Credit buttons on new layout do not work
 
 Version 1.5r3:
-	-Fixed bug: Cash/Credit buttons on new layout do not work
+	-Fixed bug: Description for generic items is last entered barcode
+	-
