@@ -126,11 +126,11 @@ Version 1.4r3:
 Version 1.5:
 	-(!)After scanning a barcode the program fails to continue (fixed 1.5r1)
 	-(!)Cash/Credit buttons on new layout do not work (fixed 1.5r2)
-	-Description for generic items is barcode
+	-Description for generic items is last entered barcode
 
 Version 1.5r1:
 	-(!)Cash/Credit buttons on new layout do not work (fixed 1.5r2)
-	-Description for generic items is barcode
+	-Description for generic items is last entered barcode
 
 Version 1.5r2:
 	-Description for generic items is last entered barcode
@@ -243,4 +243,5 @@ Version 1.5r2:
 
 Version 1.5r3:
 	-Fixed bug: Description for generic items is last entered barcode
-	-
+	-Added ability to enter requests
+	-Removed unused inventory feature
