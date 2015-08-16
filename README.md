@@ -133,7 +133,10 @@ Version 1.5r1:
 	-Description for generic items is last entered barcode
 
 Version 1.5r2:
-	-Description for generic items is last entered barcode
+	-Description for generic items is last entered barcode (fixed 1.5r3)
+
+Version 1.5r3:
+	-Description for category items was generic instead of listing the category (fixed 1.5r4)
 
 ========
 CHANGE LOG
@@ -245,3 +248,8 @@ Version 1.5r3:
 	-Fixed bug: Description for generic items is last entered barcode
 	-Added ability to enter requests
 	-Removed unused inventory feature
+
+Version 1.5r3:
+	-Fixed bug: Description for category items was generic instead of listing the category
+	-Added shoe# to the Item Lookup
+	-Updated employee list in close out
