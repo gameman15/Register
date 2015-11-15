@@ -104,42 +104,52 @@ Version 1.3r5:
 
 Version 1.3r6:
 	-Intl. Touch receipts still have old logo (fixed v1.3r7)
-	-Can close out an empty ticket (fixed 1.4r1)
-	-Adding customer to ticket not working (fixed 1.4r1)
+	-Can close out an empty ticket (fixed v1.4r1)
+	-Adding customer to ticket not working (fixed v1.4r1)
 
 Version 1.3r7:
 	-Reprint ticket prints with old logo (fixed v1.3r8)
-	-Can close out an empty ticket (fixed 1.4r1)
-	-Adding customer to ticket not working (fixed 1.4r1)
+	-Can close out an empty ticket (fixed v1.4r1)
+	-Adding customer to ticket not working (fixed v1.4r1)
 
 Version 1.3r8:
-	-Can close out an empty ticket (fixed 1.4r1)
-	-Adding customer to ticket not working (fixed 1.4r1)
+	-Can close out an empty ticket (fixed v1.4r1)
+	-Adding customer to ticket not working (fixed v1.4r1)
 
 Version 1.4:
-	-Can close out an empty ticket (fixed 1.4r1)
-	-Adding customer to ticket not working (fixed 1.4r1)
+	-Can close out an empty ticket (fixed v1.4r1)
+	-Adding customer to ticket not working (fixed v1.4r1)
 
 Version 1.4r3:
-	-If more than one item found sometimes popup claims no items found (fixed 1.5)
+	-If more than one item found sometimes popup claims no items found (fixed v1.5)
 
 Version 1.5:
-	-(!)After scanning a barcode the program fails to continue (fixed 1.5r1)
-	-(!)Cash/Credit buttons on new layout do not work (fixed 1.5r2)
-	-Description for generic items is last entered barcode
+	-(!)After scanning a barcode the program fails to continue (fixed v1.5r1)
+	-(!)Cash/Credit buttons on new layout do not work (fixed v1.5r2)
+	-Description for generic items is last entered barcode (fixed v1.5r6)
+	-Transactions that use store credit give incorrect change or credit card total
 
 Version 1.5r1:
-	-(!)Cash/Credit buttons on new layout do not work (fixed 1.5r2)
-	-Description for generic items is last entered barcode
+	-(!)Cash/Credit buttons on new layout do not work (fixed v1.5r2)
+	-Description for generic items is last entered barcode (fixed v1.5r6)
+	-Transactions that use store credit give incorrect change or credit card total
+
 
 Version 1.5r2:
-	-Description for generic items is last entered barcode (fixed 1.5r3)
+	-Description for generic items is last entered barcode (fixed v1.5r6)
+	-Transactions that use store credit give incorrect change or credit card total
 
 Version 1.5r3:
-	-Description for category items was generic instead of listing the category (fixed 1.5r5)
+	-Description for category items was generic instead of listing the category (fixed v1.5r4)
+	-Transactions that use store credit give incorrect change or credit card total
 
 Version 1.5r4:
-	-Description for category items was generic instead of listing the category (fixed 1.5r5)
+	-Description for generic items is last entered barcode (fixed v1.5r6)
+	-Transactions that use store credit give incorrect change or credit card total
+
+Version 1.5r5:
+	-Description for generic items is last entered barcode (fixed v1.5r6)
+	-Transactions that use store credit give incorrect change or credit card total
 
 ========
 CHANGE LOG
@@ -248,7 +258,7 @@ Version 1.5r2:
 	-Fixed bug: Cash/Credit buttons on new layout do not work
 
 Version 1.5r3:
-	-Fixed bug: Description for generic items is last entered barcode
+	-Fixed bug: Description for generic items is last entered barcode (later note: not actually fixed)
 	-Added ability to enter requests
 	-Removed unused inventory feature
 
@@ -258,4 +268,10 @@ Version 1.5r4:
 	-Updated employee list in close out
 
 Version 1.5r5:
-	-Changed return policy text on recipts
+	-Changed return policy text on receipts
+
+Version 1.5r6:
+	-Fixed bug: Description for generic items is last entered barcode
+	-Maybe Fixed bug: Transactions that use store credit give incorrect change or credit card total
+	-Added back non-Halloween mode ticket
+	
