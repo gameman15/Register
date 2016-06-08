@@ -11,6 +11,7 @@ Version 1.2a1:
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 Version 1.2a2:
 	-Register# for ticket not saved in Bible correctly (fixed v1.2a3)
@@ -20,6 +21,7 @@ Version 1.2a2:
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 Version 1.2a3(!):
 	-Phantom item added to beginning of tickets (fixed v1.2a4)
@@ -29,6 +31,7 @@ Version 1.2a3(!):
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 Version 1.2a4(!):
 	-(!)Close out always fails due to new void handling (fixed v1.2a5)
@@ -37,6 +40,7 @@ Version 1.2a4(!):
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 Version 1.2a5(!):
 	-(!)Close out always fails due to mistakes in "accept close out" and "change day" scripts (fixed v1.3)
@@ -48,6 +52,7 @@ Version 1.2a5(!):
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 Version 1.3(!):
 	-(!)Close out dump loses all records (fixed v1.3r1)
@@ -58,6 +63,7 @@ Version 1.3(!):
 	-Possible to put empty ticket on hold (fixed v1.3r3)
 	-RESET REGISTER does not clear ticket on hold (fixed v1.3r3)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 Version 1.3r1:
 	-Close out always fails if store credit issued (fixed v1.3r2)
@@ -69,6 +75,7 @@ Version 1.3r1:
 	-Store credit slip has old logo (fixed 1.3r4)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
 	-Intl. Touch receipts still have old logo (fixed v1.3r7)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 Version 1.3r2:
 	-Close out always fails if store credit redeemed (fixed v1.3r3)
@@ -79,18 +86,21 @@ Version 1.3r2:
 	-Store credit slip has old logo (fixed 1.3r4)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
 	-Intl. Touch receipts still have old logo (fixed v1.3r7)
+	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
 
 Version 1.3r3:
 	-If there is store credit left over register will not issue new credit slip (fixed 1.3r4)
 	-Store credit slip has old logo (fixed 1.3r4)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
 	-Intl. Touch receipts still have old logo (fixed v1.3r7)
+	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
 
 Version 1.3r4:
 	-Register closes if you try to redeem store credit (fixed 1.3r5)
 	-Detail view find button doesn't work (fixed 1.3r5)
 	-Adding total store credit issued/used improperly (fixed v1.3r6)
 	-Intl. Touch receipts still have old logo (fixed v1.3r7)
+	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
 
 Version 1.3r5:
 	-If there is store credit left over register will not issue new credit slip (fixed v1.3r6)
@@ -101,55 +111,70 @@ Version 1.3r5:
 	-Can't return item if more than one found (fixed v1.3r6)
 	-Sometimes customer's phone number can't be searched (user error?)
 	-Intl. Touch receipts still have old logo (fixed v1.3r7)
+	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
 
 Version 1.3r6:
 	-Intl. Touch receipts still have old logo (fixed v1.3r7)
 	-Can close out an empty ticket (fixed v1.4r1)
 	-Adding customer to ticket not working (fixed v1.4r1)
+	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
 
 Version 1.3r7:
 	-Reprint ticket prints with old logo (fixed v1.3r8)
 	-Can close out an empty ticket (fixed v1.4r1)
 	-Adding customer to ticket not working (fixed v1.4r1)
+	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
 
 Version 1.3r8:
 	-Can close out an empty ticket (fixed v1.4r1)
 	-Adding customer to ticket not working (fixed v1.4r1)
+	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
 
 Version 1.4:
 	-Can close out an empty ticket (fixed v1.4r1)
 	-Adding customer to ticket not working (fixed v1.4r1)
+	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
 
 Version 1.4r3:
 	-If more than one item found sometimes popup claims no items found (fixed v1.5)
+	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
 
 Version 1.5:
 	-(!)After scanning a barcode the program fails to continue (fixed v1.5r1)
 	-(!)Cash/Credit buttons on new layout do not work (fixed v1.5r2)
 	-Description for generic items is last entered barcode (fixed v1.5r6)
-	-Transactions that use store credit give incorrect change or credit card total
+	-Transactions that use store credit give incorrect change or credit card total (fixed v1.5r6)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 Version 1.5r1:
 	-(!)Cash/Credit buttons on new layout do not work (fixed v1.5r2)
 	-Description for generic items is last entered barcode (fixed v1.5r6)
-	-Transactions that use store credit give incorrect change or credit card total
+	-Transactions that use store credit give incorrect change or credit card total (fixed v1.5r6)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 
 Version 1.5r2:
 	-Description for generic items is last entered barcode (fixed v1.5r6)
-	-Transactions that use store credit give incorrect change or credit card total
+	-Transactions that use store credit give incorrect change or credit card total (fixed v1.5r6)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 Version 1.5r3:
 	-Description for category items was generic instead of listing the category (fixed v1.5r4)
-	-Transactions that use store credit give incorrect change or credit card total
+	-Transactions that use store credit give incorrect change or credit card total (fixed v1.5r6)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 Version 1.5r4:
 	-Description for generic items is last entered barcode (fixed v1.5r6)
-	-Transactions that use store credit give incorrect change or credit card total
+	-Transactions that use store credit give incorrect change or credit card total (fixed v1.5r6)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 Version 1.5r5:
 	-Description for generic items is last entered barcode (fixed v1.5r6)
-	-Transactions that use store credit give incorrect change or credit card total
+	-Transactions that use store credit give incorrect change or credit card total (fixed v1.5r6)
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
+
+Version 1.5r6:
+	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
 
 ========
 CHANGE LOG
@@ -183,7 +208,7 @@ Version 1.3:
 	-Added ability to associate customers with tickets
 	-Added ability to add customers to database
 	-Added display of current customer and store credit available to ticket
-	-Changed close out error checking to be actually helpful
+	-Changed close out error checking to be actually (semi) helpful
 
 Version 1.3r1:
 	-Fixed bug: Close out dump doesn't actually save records
@@ -241,7 +266,8 @@ Version 1.4r1:
 	-Removed access to Inventory Mode
 
 Version 1.4r2:
-	-Changed NO SALE button to NO TAX which tax exempts all items already on the ticket
+	-Removed NO SALE button
+	-Added NO TAX button which tax exempts all items already on the ticket
 
 Version 1.4r3:
 	-Scanning an item already on the ticket adds to the qty instead of making a new line (and removes the item if it's qty is then 0)
@@ -272,6 +298,10 @@ Version 1.5r5:
 
 Version 1.5r6:
 	-Fixed bug: Description for generic items is last entered barcode
-	-Maybe Fixed bug: Transactions that use store credit give incorrect change or credit card total
+	-Fixed bug: Transactions that use store credit give incorrect change or credit card total
 	-Added back non-Halloween mode ticket
+
+Version 1.5r7:
+	-Fixed bug: Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE
+
 	
