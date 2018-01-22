@@ -305,6 +305,9 @@ Version 1.5r7:
 	-Fixed bug: Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE
 
 Version 1.5r8:
-	-Changed wording on recipts
+	-Changed wording on receipts
+
+Version 1.5r9:
+	-Changed wording on receipts
 
 	
