@@ -135,9 +135,16 @@ Version 1.4:
 	-Adding customer to ticket not working (fixed v1.4r1)
 	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
 
+Version 1.4r1:
+	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
+
+Version 1.4r2:
+	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
+
 Version 1.4r3:
 	-If more than one item found sometimes popup claims no items found (fixed v1.5)
 	-(!)Putting 0 to cancel on cash ticket check out still takes items out of the bible (fixed v1.5r7)
+	-No Tax gets stuck in an infinite loop if you click it (fixed v1.6.0)
 
 Version 1.5:
 	-(!)After scanning a barcode the program fails to continue (fixed v1.5r1)
@@ -145,36 +152,52 @@ Version 1.5:
 	-Description for generic items is last entered barcode (fixed v1.5r6)
 	-Transactions that use store credit give incorrect change or credit card total (fixed v1.5r6)
 	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
+	-No Tax gets stuck in an infinite loop if you click it (fixed v1.6.0)
 
 Version 1.5r1:
 	-(!)Cash/Credit buttons on new layout do not work (fixed v1.5r2)
 	-Description for generic items is last entered barcode (fixed v1.5r6)
 	-Transactions that use store credit give incorrect change or credit card total (fixed v1.5r6)
 	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
+	-No Tax gets stuck in an infinite loop if you click it (fixed v1.6.0)
 
 
 Version 1.5r2:
 	-Description for generic items is last entered barcode (fixed v1.5r6)
 	-Transactions that use store credit give incorrect change or credit card total (fixed v1.5r6)
 	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
+	-No Tax gets stuck in an infinite loop if you click it (fixed v1.6.0)
 
 Version 1.5r3:
 	-Description for category items was generic instead of listing the category (fixed v1.5r4)
 	-Transactions that use store credit give incorrect change or credit card total (fixed v1.5r6)
 	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
+	-No Tax gets stuck in an infinite loop if you click it (fixed v1.6.0)
 
 Version 1.5r4:
 	-Description for generic items is last entered barcode (fixed v1.5r6)
 	-Transactions that use store credit give incorrect change or credit card total (fixed v1.5r6)
 	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
+	-No Tax gets stuck in an infinite loop if you click it (fixed v1.6.0)
 
 Version 1.5r5:
 	-Description for generic items is last entered barcode (fixed v1.5r6)
 	-Transactions that use store credit give incorrect change or credit card total (fixed v1.5r6)
 	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
+	-No Tax gets stuck in an infinite loop if you click it (fixed v1.6.0)
 
 Version 1.5r6:
 	-(!)Putting 0 to cancel on CASH ticket check out still takes items out of the BIBLE (fixed v1.5r7)
+	-No Tax gets stuck in an infinite loop if you click it (fixed v1.6.0)
+
+Version 1.5r7:
+	-No Tax gets stuck in an infinite loop if you click it (fixed v1.6.0)
+
+Version 1.5r8:
+	-No Tax gets stuck in an infinite loop if you click it (fixed v1.6.0)
+
+Version 1.5r9:
+	-No Tax gets stuck in an infinite loop if you click it (fixed v1.6.0)
 
 ========
 CHANGE LOG
@@ -309,5 +332,12 @@ Version 1.5r8:
 
 Version 1.5r9:
 	-Changed wording on receipts
+	-Changed default tax rate to 7.375%
 
+Version 1.6.0:
+	-Fixed Bug: No Tax gets stuck in an infinite loop if you click it
+	-Added Gift Card button to Enter Items screen
+	-Changed Void to only ask for a password if you are not clearing the current ticket
+	-Changed how categories work
+	-Changed to say "General Merchandise" for generic items when not in Halloween Mode
 	
